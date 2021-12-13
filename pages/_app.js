@@ -1,13 +1,16 @@
 import React from 'react'
+import Header from '../components/Header/idex'
 
 import '../css/styles.css'
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <div class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500" >
+    <div >
+      <Header />
+      <div className='container mx-auto'>
+        <Component {...pageProps} />
+      </div>
 
-      <h1 >MyApp</h1>
-      <Component {...pageProps} />
     </div>
   )
 }

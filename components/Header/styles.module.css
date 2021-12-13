@@ -1,0 +1,4 @@
+.wrapper{
+  @apply bg-green-200 p-4 flex ;
+}
+
