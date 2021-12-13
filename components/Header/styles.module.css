@@ -1,4 +1,4 @@
 .wrapper{
-  @apply bg-green-200 p-4 flex shadow-md;
+  @apply bg-green-200 p-4 flex shadow-md z-50;
 }
 
