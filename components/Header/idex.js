@@ -11,25 +11,25 @@ const Header = () => {
         </div>
         <div className='float-right' >
           <Link href='/sobre' >
-            <a className='px-2 hover:shadow'>
+            <a className='px-2 hover:bg-green-400 hover:text-white'>
               Sobre
             </a>
           </Link>
 
           <Link href='/consulta'>
-            <a >
+            <a className='px-2 hover:bg-green-400 hover:text-white'>
               Consulta
             </a>
           </Link>
 
-          <Link href='/receitas'>
-            <a>
+          <Link href='/receitas' >
+            <a className='px-2 hover:bg-green-400 hover:text-white'>
               Receitas
             </a>
           </Link>
 
           <Link href='#'>
-            <a>
+            <a className='px-2 hover:bg-green-400 hover:text-white'>
               Blog
             </a>
           </Link>
