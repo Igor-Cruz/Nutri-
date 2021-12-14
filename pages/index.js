@@ -4,32 +4,11 @@ import Link from 'next/link'
 const Index = () => {
   return (
     <div>
-      <h1>Nutri+</h1>
       <div>
-        <Link href='/sobre'>
-          <a>
-            Sobre
-          </a>
-        </Link>
-
-        <Link href='/consulta'>
-          <a>
-            Consulta
-          </a>
-        </Link>
-
-        <Link href='/receitas'>
-          <a>
-            Receitas
-          </a>
-        </Link>
-
-        <Link href='#'>
-          <a>
-            Blog
-          </a>
-        </Link>
-
+        <img src='./2.jpg' className="bg-fixed" />
+      </div>
+      <div className='m-4 text-center'>
+        <h1>Tenha uma vida + saudável</h1>
       </div>
     </div>
   )

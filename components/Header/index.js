@@ -7,7 +7,12 @@ const Header = () => {
     <div className={styles.wrapper}>
       <div className='container mx-auto '>
         <div className=' float-left'>
-          <img src="/1.png" alt="Logo Nutri+" className="w-10" />
+          <Link href='/' >
+            <a>
+              <img src="/1.png" alt="Logo Nutri+" className="w-10" />
+            </a>
+          </Link>
+
         </div>
         <div className='float-right' >
           <Link href='/sobre' >
