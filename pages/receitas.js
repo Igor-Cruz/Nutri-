@@ -6,7 +6,7 @@ const Receitas = () => {
     <div>
       <div>
         <h2>
-          Lista para receber novidades e dicas de receitas.
+          Lista para receber novidades e dicas de receitas.(mailchimp)
 
         </h2>
       </div>
