@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className={styles.wrapper}>
       <div className='container mx-auto '>
-        <div className=' float-left'>
+        <div className=' float-left  '>
           <Link href='/' >
             <a>
               <img src="/1.png" alt="Logo Nutri+" className="w-10" />
@@ -14,7 +14,7 @@ const Header = () => {
           </Link>
 
         </div>
-        <div className='float-right' >
+        <div className='float-right font-mono' >
           <Link href='/sobre' >
             <a className='px-2 hover:bg-green-400 hover:text-white  font-bold'>
               Sobre
