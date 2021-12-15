@@ -7,6 +7,7 @@ const Index = () => {
       <div>
         <img src='./2.jpg' className="bg-fixed" />
 
+
       </div>
 
     </div>
